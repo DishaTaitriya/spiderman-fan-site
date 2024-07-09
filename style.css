@@ -18,7 +18,7 @@ html{
     margin-right: 30px;
 } 
 .logo img{
-    width: 20%;
+    width: 15%;
     max-width: 100px; 
     border:3px solid white;
     border-radius:50px ;
@@ -31,7 +31,7 @@ html{
     position: sticky;
     top: 0;
     cursor: pointer;
-    padding: 10px 50px;
+    /* padding: 10px 50px; */
     
 }
 .nav-list{
@@ -42,7 +42,9 @@ html{
     justify-content: flex-end;
 }
 .nav-list li{
-    padding: 10px 0px;
+    list-style: none;
+    /* padding: 10px 0px; */
+    padding: 26px 30px;
 }
 .nav-list li a{
     float: left;
@@ -50,7 +52,7 @@ html{
     color: white;
     font-size: 20px;
     font-family: "Ubuntu", sans-serif;
-    padding: 14px 30px;   
+    /* padding: 14px 30px;    */
 }
 .nav-list li a:hover{
     color: grey;
@@ -131,6 +133,10 @@ html{
     color: black;
     border: 1px solid grey;
     
+}
+#About{
+    padding: 45px;
+    margin-top: auto;
 }
 .section{
     
@@ -219,7 +225,8 @@ th, td {
 
 .star-rating {
     direction: rtl;
-    display: inline-block;
+    /* display: inline-block; */
+    display: block;
     font-size: 2em;
 }
 .star-rating input {
@@ -270,7 +277,7 @@ th, td {
     }
     .v-class-resp{
         opacity: 0;
-        height: 30px;
+        height: 50px;
     } 
     .section{
         flex-direction: column-reverse; 
